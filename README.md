@@ -52,6 +52,10 @@ This project demonstrates the use of **mobile development**, **educational techn
 
 ---
 
-## Author
-**Abdelfatah Chaib**  
-Final Year Project – EST
+## Clone the Project
+
+You can clone this repository to your local machine using Git:
+
+```bash
+git clone https://github.com/abdelfatah-chaib/Bayinnah-Arabic-Learning-Game.git
+
