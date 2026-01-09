@@ -1,4 +1,4 @@
-# Arabic Learning Game 🎮📚
+# Arabic Learning Game 
 
 ## Project Overview
 This project is a **Final Year Project (PFE – EST)** that consists of developing an **educational mobile game for learning the Arabic language**, specifically designed for **non-native speakers**.
@@ -16,11 +16,11 @@ The application aims to make Arabic learning more **interactive, engaging, and a
 ---
 
 ## Features
-- 🎯 Interactive learning levels
-- 🧠 Vocabulary and basic grammar exercises
-- 🗣️ Pronunciation and word recognition
-- 🏆 Gamification elements (scores, progression, challenges)
-- 📱 User-friendly Android interface
+-  Interactive learning levels
+-  Vocabulary and basic grammar exercises
+-  Pronunciation and word recognition
+-  Gamification elements (scores, progression, challenges)
+-  User-friendly Android interface
 
 ---
 
