@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="126dp"
+        android:src="@drawable/stagpic"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wave__4_"
+        >
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="#f2e4aa"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECTIONNER UN STAGE"
+                android:textColor="#bea000"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="45dp"
+                />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="200dp"
+            android:text="stage 3"
+            android:layout_marginLeft="41dp"
+            android:textColor="@color/black"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_below="@+id/appBarLayout2"/>
+
+        <ImageButton
+            android:id="@+id/stage3_word"
+            android:layout_width="128dp"
+            android:layout_height="105dp"
+            android:text="Stage 3"
+            android:textSize="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/stage1_word"
+            android:background="@drawable/button_rounded"
+            android:backgroundTint="#fafafa"
+            android:src="@drawable/rsz_sketchclothes"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:text="stage 1"
+            android:layout_marginLeft="41dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_below="@+id/appBarLayout2"/>
+        <ImageButton
+            android:id="@+id/stage1_word"
+            android:layout_width="128dp"
+            android:layout_height="105dp"
+            android:background="@drawable/button_rounded"
+            android:backgroundTint="#fafafa"
+            android:src="@drawable/smolcatprev"
+            android:text="Stage1"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/appBarLayout2"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:text="stage 5"
+            android:layout_marginLeft="41dp"
+            android:textColor="@color/black"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_below="@+id/stage3_word"/>
+
+        <ImageButton
+            android:id="@+id/stage5_word"
+            android:layout_width="128dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/button_rounded"
+            android:backgroundTint="#fafafa"
+            android:src="@drawable/pillow"
+            android:layout_below="@+id/stage3_word"
+            />
+        <ImageButton
+            android:id="@+id/stage8_word"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/button_rounded"
+            android:backgroundTint="#fafafa"
+            android:src="@drawable/rsz_1download"
+            android:layout_below="@+id/stage5_word"
+            />
+        <ImageButton
+            android:id="@+id/stage9_word"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="300dp"
+            android:background="@drawable/button_rounded"
+            android:backgroundTint="#fafafa"
+            android:src="@drawable/rsz_nums"
+            android:layout_below="@+id/stage6_word"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="nombres"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_below="@+id/stage6_word"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="stage 7"
+            android:layout_marginLeft="175dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+
+            android:layout_below="@+id/stage6_word"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="couleurs"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            android:textSize="20dp"
+            android:layout_below="@+id/stage5_word"/>
+        <ImageButton
+            android:id="@+id/stage7_word"
+            android:layout_width="128dp"
+            android:layout_height="105dp"
+            android:background="@drawable/button_rounded"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/stage5_word"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="#fafafa"
+            android:src="@drawable/ice"
+             />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="stage 6"
+            android:layout_marginLeft="288dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"            android:textColor="@color/black"
+
+            android:textSize="20dp"
+            android:layout_below="@+id/stage4_word"/>
+
+        <ImageButton
+            android:id="@+id/stage6_word"
+            android:layout_width="140dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_rounded"
+            android:backgroundTint="#fafafa"
+            android:layout_below="@+id/stage4_word"
+            android:src="@drawable/school"
+             />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="stage 4"
+            android:layout_marginLeft="288dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_below="@+id/stage2_word"
+            android:textColor="@color/black"
+            />
+
+        <ImageButton
+            android:id="@+id/stage4_word"
+            android:layout_width="128dp"
+            android:layout_height="102dp"
+            android:layout_below="@+id/stage2_word"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_rounded"
+            android:backgroundTint="#fafafa"
+            android:src="@drawable/rainbowback_preview_rev_1"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:text="stage 2"
+            android:layout_marginLeft="295dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            android:textSize="20dp"
+            android:layout_below="@+id/appBarLayout2"/>
+        <ImageButton
+            android:id="@+id/stage2_word"
+            android:layout_width="128dp"
+            android:backgroundTint="#fafafa"
+            android:layout_height="102dp"
+            android:background="@drawable/button_rounded"
+            android:text="Stage 2"
+            android:layout_marginTop="85dp"
+            android:src="@drawable/rsz_picnicjpg"
+            android:layout_marginLeft="260dp"
+            android:layout_below="@+id/appBarLayout2"
+           />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="140dp"
+            android:layout_height="65dp"
+            android:id="@+id/home_btn2"
+            android:text="Home"
+            android:layout_below="@+id/stage7_word"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#fafafa"
+            android:textColor="@color/nougatdark"
+            android:textSize="15dp"
+            android:translationY="20dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

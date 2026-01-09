@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wave__5_">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#edcce0"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:text="Stage 1"
+                        android:textColor="#870979"
+                        android:textSize="25sp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="/7"
+                        android:textColor="#870979"
+                        android:textSize="20sp"></TextView>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:layout_anchor="@+id/appBarLayout"
+            app:layout_anchorGravity="top|center"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=" Categorie :"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:translationY="70dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="nombres"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:translationX="100dp"
+            android:translationY="70dp"></TextView>
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="الارقام"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:translationX="305dp"
+            android:translationY="70dp"></TextView>
+
+        <View
+            android:layout_width="346dp"
+            android:layout_height="4dp"
+            android:background="#FFD700"
+            android:translationX="30dp"
+            android:translationY="103dp" />
+
+        <ImageView
+            android:id="@+id/ImageViewQ2"
+            android:layout_width="372dp"
+            android:layout_height="281dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:translationX="20dp"
+            android:translationY="120dp" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:text="what do you hear ? "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:translationX="50dp"
+            android:translationY="409dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/option1"
+            android:layout_width="161dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="option1"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationY="420dp"></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/option3"
+            android:layout_width="161dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="option3"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationY="530dp"></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/option4"
+            android:layout_width="161dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="option4"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="200dp"
+            android:translationY="530dp"></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/option2"
+            android:layout_width="161dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="option2"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="200dp"
+            android:translationY="420dp"></androidx.appcompat.widget.AppCompatButton>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="46dp"
+            android:layout_height="36dp"
+            android:src="@drawable/nombreicon"
+            android:translationX="175dp"
+            android:translationY="70dp" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

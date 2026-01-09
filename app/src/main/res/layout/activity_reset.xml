@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ResetActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600sp"
+        android:background="@drawable/wave__6_">
+
+        <TextView
+            android:id="@+id/newpasstext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="Nouveau mot de passe"
+            android:textColor="#464b44"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_marginLeft="75dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_reset_text"
+        android:layout_marginTop="-45dp"
+        android:layout_below="@id/newpasstext"
+        android:textColor="@color/beige"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_reset"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/nougat"
+        android:layout_below="@id/newpasstext"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:hint="Nouveau Mot de passe"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/yelloish"
+        android:textColorHint="@color/yelloish" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/repassword_reset"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/nougat"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:hint="Confirmer Mot de passe"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/yelloish"
+        android:textColorHint="@color/yelloish"
+        android:layout_below="@id/password_reset"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="61dp"
+        android:id="@+id/btn_confirm"
+        android:text="Confirmer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#fafafa"
+        android:textColor="@color/nougatdark"
+        android:textSize="15sp"
+        android:layout_below="@id/repassword_reset"/>
+    </RelativeLayout>
+
+</RelativeLayout>
